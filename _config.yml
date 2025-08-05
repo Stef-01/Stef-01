@@ -13,12 +13,12 @@ repository               : "academicpages/academicpages.github.io" # update with
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
-  pronouns         : # example: "she/her"  
+  name             : "Stefan Thottunkal"
+  pronouns         : "he/him"  
   bio              : "Short biography for the left-hand sidebar"
   location         : "Earth"
-  employer         : "Red Brick University"
-  email            : "none@example.org" 
+  employer         : "Stanford University"
+  email            : "stefan01@stanford.edu" 
   
   # Academic websites - keep only what you need
   googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
