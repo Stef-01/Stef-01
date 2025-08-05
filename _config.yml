@@ -12,7 +12,7 @@ repository               : "https://stef-01.github.io/Stef-01/" # update with yo
 # Site Author - Only keeping essential bio information
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   name             : "Stefan Thottunkal"
   pronouns         : "he/him"  
   bio              : "Short biography for the left-hand sidebar"
