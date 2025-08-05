@@ -7,7 +7,7 @@ name                     : &name "Your Name"
 description              : &description "personal description"
 url                      : https://academicpages.github.io # update with your GitHub username
 baseurl                  : "" 
-repository               : "academicpages/academicpages.github.io" # update with your repository name
+repository               : "https://stef-01.github.io/Stef-01/" # update with your repository name
 
 # Site Author - Only keeping essential bio information
 author:
