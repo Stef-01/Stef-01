@@ -61,7 +61,7 @@ Joshy, G., Khalatbari-Soltani, S., Soga, K., Butow, P., Laidsaar-Powell, R., Koc
 2. **Thottunkal, S.** AI Enabled Synthetic Bioweapons, a critical perspective on the current landscape of nucleic screening, and considerations for the EO's AI Action Plan (Submitted August 2025 to *Disaster Medicine and Public Health Preparedness, Cambridge Press).
 
 
-4. **Thottunkal, S.** (2021)"Regulatory Stringency and Impacts on Equity and Innovation in Medical Devices: Insights from the EU MDR 2017 and Considerations for the FDA" *Journal of Regulatory Science (revise and resubmit July 2025).
+4. **Thottunkal, S.** "Regulatory Stringency and Impacts on Equity and Innovation in Medical Devices: Insights from the EU MDR 2017 and Considerations for the FDA" *Journal of Regulatory Science (revise and resubmit July 2025).
 
 5. Sayeed, M. A., Colquhoun, S., **Thottunkal, S.**, McLure, A., Schwessinger, B., Lal, A., & Rahaman, M. R. "Systematic review and meta-analysis of childhood diarrhea attributed to enteropathogenic organisms in low- and middle-income countries." (submitted 2025).
 
@@ -73,11 +73,11 @@ Joshy, G., Khalatbari-Soltani, S., Soga, K., Butow, P., Laidsaar-Powell, R., Koc
 ###  Creative Works
 
 
-* Thottunkal S., "The Future In The Other: Levinasian Reflections On Identity, Responsibility, Humanity And Artificial Intelligence In Medicine," RMC Vera Cogitate, Summer, (2024).
+* Thottunkal S., "The Future In The Other: Levinasian Reflections On Identity, Responsibility, Humanity And Artificial Intelligence In Medicine," RMC Vera Cogitate, Summer,. (2024)
   
-* Thottunkal S. “Charles Darwin', 'The Singularity' and 'Mass Extinction” – Ceramics, Burgmann Journal Artwork Publication, (2021)
+* Thottunkal S. “Charles Darwin', 'The Singularity' and 'Mass Extinction” – Ceramics, Burgmann Journal Artwork Publication,. (2021)
 
-* Thottunkal S. "Journey of my life" – Woodwork/carving, QLD Creative Generations Exhibiiton, (2018)
+* Thottunkal S. "Journey of my life" – Woodwork/carving, QLD Creative Generations Exhibiiton,. (2018)
 ---
 
 ## Conferences
