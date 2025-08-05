@@ -26,7 +26,9 @@ redirect_from:
 **Bachelor of Health Science with First Class Honors** | Australian National University | 2019-2023
 * GPA: 6.92/7.0
 
+
 **Certificate 3 in Process Manufacturing** | Kirana College | 2019
+
 
 **QUAD Fellowship** | 2025-2026
 
@@ -63,7 +65,9 @@ Joshy, G., Khalatbari-Soltani, S., Soga, K., Butow, P., Laidsaar-Powell, R., Koc
 
 5. Sayeed, M. A., Colquhoun, S., **Thottunkal, S.**, McLure, A., Schwessinger, B., Lal, A., & Rahaman, M. R. "Systematic review and meta-analysis of childhood diarrhea attributed to enteropathogenic organisms in low- and middle-income countries." (submitted 2025).
 
-3. **Thottunkal, S.**, Katie Chang, Judy Fan, Auddithio Nag, David Rhew, Bussina A, Behavioral Hazards, Externalities, and Cost–Benefit Dynamics of AI-Assisted Diabetic Retinopathy Screening: Microsoft's Healthcare from the Eye Initiative. (study in progress)
+**Thottunkal, S.**, "Katie Chang, Judy Fan, Auddithio Nag, David Rhew, Bussina A, Behavioral Hazards, Externalities, and Cost–Benefit Dynamics of AI-Assisted Diabetic Retinopathy Screening: Microsoft's Healthcare from the Eye Initiative." (study in progress).
+
+
 ---
 
 ###  Creative Works
@@ -74,27 +78,9 @@ Joshy, G., Khalatbari-Soltani, S., Soga, K., Butow, P., Laidsaar-Powell, R., Koc
 * Thottunkal S. “Charles Darwin', 'The Singularity' and 'Mass Extinction” – Ceramics, Burgmann Journal Artwork Publication, (2021)
 
 * Thottunkal S. "Journey of my life" – Woodwork/carving, QLD Creative Generations Exhibiiton, (2018)
-
-
 ---
 
-## Conference Presentations & Talks
-
-###  Presentations
-
-**Stanford Prevention Research Centre Grand Rounds** | Stanford Medicine | 2025
-* "Development and evaluation of an LLM Pharmacogenomics tool to integrate PGx in everyday clinical decision making"
-
-**CPIC Junior Investigators Webinar** | 2025
-* "Development of a Pharmacogenomics LLM model"
-
-**Stanford CARE Lung Cancer Summit** | Stanford University | 2025
-* "Pharmacogenomics Applications for Medication Management in Precision Oncology" (Junior Investigator Presentation and Panelist)
-
-**QUAD Fellowship Summit** | 2025
-* **Thottunkal S.**, Vigil B., Matsumoto S. "Repurposing ML topic modelling techniques from counterterrorism approaches, for Infectious Disease Surveillance"
-
-### Conference Presentations
+## Conferences
 
 **TETHICON, Stanford McCoy Family Center for Ethics in Society** | 2025
 * Mathew E., **Thottunkal S.**, Saravanan V., Nguyen T. "Detecting AI-Engineered Biothreats with Dynamic Threat Modelling"
@@ -110,8 +96,21 @@ Joshy, G., Khalatbari-Soltani, S., Soga, K., Butow, P., Laidsaar-Powell, R., Koc
 
 **CEI Evidence and Implementation Summit** | 2023
 * Yadav U., **Thottunkal S.**, Agostino J., "Implementation of preventive chronic disease health checks for Indigenous Australians: a realist review"
+---
 
+## Presentations
 
+**Stanford Prevention Research Centre Grand Rounds** | Stanford Medicine | 2025
+* "Development and evaluation of an LLM Pharmacogenomics tool to integrate PGx in everyday clinical decision making"
+
+**CPIC Junior Investigators Webinar** | 2025
+* "Development of a Pharmacogenomics LLM model"
+
+**Stanford CARE Lung Cancer Summit** | Stanford University | 2025
+* "Pharmacogenomics Applications for Medication Management in Precision Oncology" (Junior Investigator Presentation and Panelist)
+
+**QUAD Fellowship Summit** | 2025
+* **Thottunkal S.**, Vigil B., Matsumoto S. "Repurposing ML topic modelling techniques from counterterrorism approaches, for Infectious Disease Surveillance"
 ---
 
 <div style="text-align: center; margin-top: 2em; padding-top: 1em; border-top: 1px solid #ddd;">
