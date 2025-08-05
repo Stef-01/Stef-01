@@ -29,7 +29,7 @@ redirect_from:
 **Certificate 3 in Process Manufacturing** | Kirana College | 2019
 
 **QUAD Fellowship** | 2025-2026
-* Fellowship designed to strengthen ties among emerging leaders across QUAD nations
+
 
 ---
 
@@ -37,9 +37,9 @@ redirect_from:
 
 ### Peer-Reviewed Articles
 
-Yu H., **Thottunkal S.**, Yahya B. Et Al. 2025 "Artificial intelligence in biomedical diagnostics:recent advances and transitions to liable regulation." *MIT Science Policy Review*.
+Yu H., **Thottunkal S.**, Yahya B. Et Al. (2025) "Artificial intelligence in biomedical diagnostics:recent advances and transitions to liable regulation." *MIT Science Policy Review*.
 
-**Thottunkal, S.**; Spahn, C.; Wang, B.; Rohatgi, N.; Hong, J.; Khandelwal, A.; Palaniappan, L. (2025). "Clinician Experiences at the Frontier of Pharmacogenomics and Future Directions." *MDPI: Journal of Personalized Medicine*, 15(7), 294. https://doi.org/10.3390/jpm15070294
+**Thottunkal, S.**, Spahn, C., Wang, B., Rohatgi, N., Hong, J., Khandelwal, A., Palaniappan, L. (2025). "Clinician Experiences at the Frontier of Pharmacogenomics and Future Directions." *MDPI: Journal of Personalized Medicine*, 15(7), 294. https://doi.org/10.3390/jpm15070294
 
 Yadav U., **Thottunkal S.**, Agostino J. "What influences the implementation of health checks in the prevention and early detection of chronic diseases among Aboriginal and Torres Strait Islander people in Australian primary health care?" *BMC Health Systems and Policy* (2025).
  
