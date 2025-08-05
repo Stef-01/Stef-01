@@ -16,7 +16,7 @@ redirect_from:
 ## Education
 
 **M.S. in Community Health and Prevention Research** | Stanford University | 2025-2026
-* GPA: 4.075/4.0
+* GPA: 4.075/4.3
 * Thesis: AI methods for pharmacogenomics-based prescribing in clinical practice
 * Advisor: Prof. Palaniappan
 
