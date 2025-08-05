@@ -1,7 +1,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Your Name / Site Title"
+title                    : "Stefan Thottunkal"
 title_separator          : "-"
 name                     : &name "Your Name"
 description              : &description "personal description"
@@ -16,14 +16,13 @@ author:
   name             : "Stefan Thottunkal"
   pronouns         : "he/him"  
   bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
+  location         : "Stanford"
   employer         : "Stanford University"
   email            : "stefan01@stanford.edu" 
   
   # Academic websites - keep only what you need
   googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
   orcid            : "http://orcid.org/yourorcidurl"
-  github           : "academicpages" # if you want to keep this
   
   # You can uncomment any other fields you want to include
 
