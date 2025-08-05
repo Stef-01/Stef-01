@@ -39,19 +39,19 @@ redirect_from:
 
 ### Peer-Reviewed Articles
 
-Yu H., **Thottunkal S.**, Yahya B. Et Al. (2025) "Artificial intelligence in biomedical diagnostics:recent advances and transitions to liable regulation." *MIT Science Policy Review*.
+Yu H., **Thottunkal S.**, Yahya B. Et Al. (2025) "Artificial intelligence in biomedical diagnostics:recent advances and transitions to liable regulation." *MIT Science Policy Review*. https://doi.org/10.38105/spr.608ii2mk00
 
 **Thottunkal, S.**, Spahn, C., Wang, B., Rohatgi, N., Hong, J., Khandelwal, A., Palaniappan, L. (2025). "Clinician Experiences at the Frontier of Pharmacogenomics and Future Directions." *MDPI: Journal of Personalized Medicine*, 15(7), 294. https://doi.org/10.3390/jpm15070294
 
-Yadav U., **Thottunkal S.**, Agostino J. "What influences the implementation of health checks in the prevention and early detection of chronic diseases among Aboriginal and Torres Strait Islander people in Australian primary health care?" *BMC Health Systems and Policy* (2025).
+Yadav U., **Thottunkal S.**, Agostino J. "What influences the implementation of health checks in the prevention and early detection of chronic diseases among Aboriginal and Torres Strait Islander people in Australian primary health care?" *BMC Health Systems and Policy* (2025). https://doi.org/10.1186/s12961-025-01325-9
  
-Parry A., Campbell S., **Thottunkal S.**, Salmon S. (2024). "Stronger together: A bi-regional operational capacity review of the Global Outbreak Alert and Response Network." *Western Pacific Surveillance and Response*, World Health Organization.
+Parry A., Campbell S., **Thottunkal S.**, Mandal P., Salmon S. (2024). "Stronger together: A bi-regional operational capacity review of the Global Outbreak Alert and Response Network." *Western Pacific Surveillance and Response*, World Health Organization. https://ojs.wpro.who.int/ojs/index.php/wpsar/article/view/1109/1197
 
-Hailu S., Hurst C., Cyphers G., **Thottunkal S.**, Harley D., Viney K., Irwin A., Nourse C. (2024). "Prevalence of Extra-pulmonary Tuberculosis in Africa: A Systematic Review and Meta-analysis." *Tropical Medicine & International Health*.
+Hailu S., Hurst C., Cyphers G., **Thottunkal S.**, Harley D., Viney K., Irwin A., Nourse C. (2024). "Prevalence of Extra-pulmonary Tuberculosis in Africa: A Systematic Review and Meta-analysis." *Tropical Medicine & International Health*. https://doi.org/10.1111/tmi.13970
 
 Joshy, G., Khalatbari-Soltani, S., Soga, K., Butow, P., Laidsaar-Powell, R., Koczwara, B., Rankin, N. M., Brown, S., Weber, M., Mazariego, C., Grogan, P., Stubbs, J., **Thottunkal, S.**, Canfell, K., Blyth, F. M., & Banks, E. (2023). "Pain and its interference with daily living in relation to cancer: a comparative population-based study of 16,053 cancer survivors and 106,345 people without cancer." *BMC cancer*, 23(1), 774. https://doi.org/10.1186/s12885-023-11214-5
 
-**Thottunkal, S.** (2021). "Perceptions of, factors underlying, and reasons for e-cigarette use among Australia's young adults." *ANU Undergraduate Research Journal*, 11(1), 125-132.
+**Thottunkal, S.** (2021). "Perceptions of, factors underlying, and reasons for e-cigarette use among Australia's young adults." *ANU Undergraduate Research Journal*, 11(1), 125-132. https://studentjournals.anu.edu.au/index.php/aurj/article/view/647
 
 ### Manuscripts Under Review/In Preparation
 
