@@ -28,11 +28,11 @@ redirect_from:
 * GPA: 6.92/7.0
 * 2020 Charles Darwin University Indigenous Cultures and the Environment Exchange Course
 
-**Certificate 3 in Process Manufacturing** | Kirana College | 2019
+**Certificate 3 in Process Manufacturing** | Kirana College | 2019-2020
 
 **QUAD Fellowship** | 2025-2026
 * Fellowship designed to strengthen ties among emerging leaders across QUAD nations
-* Training on research-to-policy translation through engagement with diplomats and government officials
+* Research-to-policy translation programming through engagement with diplomats and government officials
 
 ---
 
@@ -75,7 +75,7 @@ redirect_from:
 **Stanford Prevention Research Centre Grand Rounds** | Stanford Medicine | 2025
 * "Development and evaluation of an LLM Pharmacogenomics tool to integrate PGx in everyday clinical decision making"
 
-**CPIC JI Webinar** | 2025
+**CPIC Junior Investigators Webinar** | 2025
 * "Development of a Pharmacogenomics LLM model"
 
 **Stanford CARE Lung Cancer Summit** | Stanford University | 2025
@@ -102,7 +102,7 @@ redirect_from:
 * Yadav U., Agostino J., **Thottunkal S.** "Implementation of preventive chronic disease health checks for Indigenous Australians: a realist review"
 
 **GOARN Partners' Meeting on International Outbreak Response Capacity** | Asia-Pacific Region 2022
-* Presented project findings and facilitated engagement tool for data collection
+* Parry A., Campbell S.,  **Thottunkal S.**, Salmon S., Colquhoun S.
 
 ---
 
