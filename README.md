@@ -19,7 +19,6 @@ redirect_from:
 
 **Doctor of Medicine** | Macquarie University | 2023-2027
 * Currently on intercalation for Master's degree
-* Recipient of MQ Equity Merit Scholarship (valued at $120,000)
 
 **Bachelor of Health Science with First Class Honors** | Australian National University | 2019-2023
 * GPA: 6.92/7.0
@@ -28,84 +27,8 @@ redirect_from:
 **Certificate 3 in Process Manufacturing** | Kirana College | 2019
 
 **QUAD Fellowship** | 2025-2026
-* Value: $60,000
 * Fellowship designed to strengthen ties among emerging leaders across QUAD nations
 * Training on research-to-policy translation through engagement with diplomats and government officials
-
-## Professional Experience
-
-### Research & Academic Positions
-
-**Research Assistant** | Han Lab, Stanford Medicine Quantitative Sciences Unit | March 2025 - Present
-* Providing expert data annotation on tumor burden and metastasis on lung cancer patient imaging reports to train machine learning models
-
-**Project Manager** | Microsoft/Stanford Medicine HFTE Initiative | January 2025 - Present
-* Leading team of four investigating optimal health systems operations for oculomics medical device
-* Conducting mixed methods behavioral health study with 30 patients from Stanford Endocrinology Clinics
-* Project led by Microsoft's Global Chief Medical Officer Dr. David Rhew and Stanford Professor Leng
-
-**Student Researcher** | Federal Bureau of Investigation, WMD Unit | March 2025 - June 2025
-* Biosecurity research project
-
-**Research Officer** | National Centre for Aboriginal and Torres Strait Islander Wellbeing Research, ANU | April 2023 - January 2025
-* Led project investigating COVID-19 impact on syndemic factors affecting marginalized communities with chronic disease
-* Extensive stakeholder engagement with Indigenous reference groups and health organizations
-
-**Research Assistant** | National Centre for Epidemiology and Population Health, ANU | November 2022 - January 2025
-* Methodology, screening and synthesis of infectious disease research
-* Taught PhD students research methods in systematic and scoping methodologies
-
-**Research Assistant** | WHO GOARN, Australian National University | January 2022 - November 2022
-* Systematic scoping review for consulting project to improve WHO GOARN deployments
-* Analyzed organizational barriers and enablers for public health worker deployment in humanitarian contexts
-
-### Business & Consulting Experience
-
-**CEO** | GenieRX, Harvard Venture Incubation Program | April 2025 - Present
-* Leading development of LLM pharmacogenomics tool covering 300+ commonly prescribed drugs
-* Graduated from 4-week intensive program with daily lectures and mentorship from Harvard Business School
-
-**Team Leader** | GenieRX, Harvard Health Systems Innovation Lab | April 2025 - June 2025
-* Led team of 5 in developing AI clinical decision support tool
-* Placed 7th out of 3,500 participants across 4 competitive international rounds
-
-**Business Development Intern** | Adcem Pharmaceuticals, Stanford SEED Program | April 2025 - Present
-* Developing affordable home peritoneal dialysis device and care model for Sub-Saharan Africa
-* Executive implementation committee member for market expansion strategy and technology transfer
-
-**Student Consultant** | Stanford Hospital Quality for Hospital Medicine | March 2025 - June 2025
-* Led consulting project to reduce medical readmissions
-* Conducted stakeholder interviews and analyzed survey data for SDOH screening tool effectiveness
-
-**Project Manager** | SHCG Aether AI, Stanford Healthrex Lab | January 2025 - March 2025
-* Evaluated commercial viability of academic AI clinical decision support spinout
-* Conducted stakeholder analysis through targeted interviews with 50+ participants
-* Developed commercialization strategies and EHR integration roadmap
-
-### Government & Policy Experience
-
-**Policy Officer** | Australian Department of Social Services, NDIS Outcomes and Research Strategy | December 2022 - December 2025
-* Leading development of protocols for policymaker-researcher partnerships
-* Assisting establishment of disability research advisory unit
-
-**Policy Officer** | Australian Department of Social Services, NDIS Financial Policy | July 2022 - December 2022
-* Coordinated 2022 October NDIS budget preparation
-* Produced ministerial briefs and policy proposals
-
-**Policy Officer** | Australian Department of Social Services, National Redress Scheme | January 2022 - July 2022
-* Delivered major recommendations from Second-Year Review
-* Facilitated Commonwealth and state/territory collaboration for expanded redress delivery
-
-**Intern** | Parliamentary Library, Social Policy Division | July 2021 - December 2021
-* Produced comprehensive report on COVID-19 restrictions' unintended consequences on Australian healthcare
-* Presented findings to internal Parliamentary stakeholders
-
-### Healthcare Experience
-
-**Healthcare Assistant** | Baxter International, Belconnen Community Health Centre | June 2020 - May 2021
-* Set up and maintained dialysis machines in 20-bed dialysis ward
-
-**Medical Receptionist** | The National Health Co-op | May 2020 - February 2021
 
 ## Publications
 
@@ -119,15 +42,23 @@ redirect_from:
 
 4. Joshy, Khalatbari-Soltani, S., Soga, K., Butow, P. Et. Al (2023). "Pain and its interference with daily living in relation to cancer: a comparative population-based study of 16,053 cancer survivors and 106,345 people without cancer." *BMC Cancer*, 23(1), 1-774.
 
-5. **Thottunkal, S.** (2021). "Perceptions of, factors underlying, and reasons for e-cigarette use among Australia's young adults." *ANU Undergraduate Research Journal*, 11(1), 125-132.
+5. Yadav U., **Thottunkal S.**, Agostino J. "What influences the implementation of health checks in the prevention and early detection of chronic diseases among Aboriginal and Torres Strait Islander people in Australian primary health care?" *BMC Health Systems and Policy* (2025).
+
+6. **Thottunkal, S.** (2021). "Perceptions of, factors underlying, and reasons for e-cigarette use among Australia's young adults." *ANU Undergraduate Research Journal*, 11(1), 125-132.
 
 ### Manuscripts Under Review/In Preparation
 
-1. Yadav U., **Thottunkal S.**, Agostino J. "What influences the implementation of health checks in the prevention and early detection of chronic diseases among Aboriginal and Torres Strait Islander people in Australian primary health care?" *BMC Health Systems and Policy* (2025).
+1. **Thottunkal, S.** Comparing LLM Output to Physician Notes for Pharmacogenomics (MDPI For Submission August 2025).
 
-2. Zhang T., Yu H., **Thottunkal S.**, Yahya B. "Critical perspectives in the implementation of AI in medical diagnostics." *MIT Science Policy Review* (accepted, publication August 2025).
+2. **Thottunkal, S.** AI Enabled Synthetic Bioweapons, a critical perspective on the current landscape of nucleic screening, and considerations for the EO’s AI Action Plan *Disaster Medicine and Public Health Preparedness, Cambridge Press (Submitted August 2025).
 
-3. Sayeed, M. A., Colquhoun, S., **Thottunkal, S.**, McLure, A., Schwessinger, B., Lal, A., & Rahaman, M. R. "Systematic review and meta-analysis of childhood diarrhea attributed to enteropathogenic organisms in low- and middle-income countries." *World Journal of Pediatrics* (submitted 2025).
+3. **Thottunkal, S.** Behavioral Hazards, Externalities, and Cost–Benefit Dynamics of AI-Assisted Diabetic Retinopathy Screening: Microsoft's Healthcare from the Eye Initiative.
+
+4. **Thottunkal, S.** (2021)"Regulatory Stringency and Impacts on Equity and Innovation in Medical Devices: Insights from the EU MDR 2017 and Considerations for the FDA" *Journal of Regulatory Science (revise and resubmit July 2025).
+
+5. Yu H., **Thottunkal S.**, Yahya B. "Artificial intelligence in biomedical diagnostics:recent advances and transitions to liable regulation." *MIT Science Policy Review* (accepted, publication August 2025).
+
+6. Sayeed, M. A., Colquhoun, S., **Thottunkal, S.**, McLure, A., Schwessinger, B., Lal, A., & Rahaman, M. R. "Systematic review and meta-analysis of childhood diarrhea attributed to enteropathogenic organisms in low- and middle-income countries." (submitted 2025).
 
 ## Conference Presentations & Talks
 
