@@ -5,7 +5,7 @@ title                    : "Your Name / Site Title"
 title_separator          : "-"
 name                     : &name "Your Name"
 description              : &description "personal description"
-url                      : https://academicpages.github.io # update with your GitHub username
+url                      : https://stef-01.github.io/Stef-01/ # update with your GitHub username
 baseurl                  : "" 
 repository               : "https://stef-01.github.io/Stef-01/" # update with your repository name
 
