@@ -1,13 +1,14 @@
 ---
-layout: archive
-title: "CV"
-permalink: /cv/
+layout: single
 author_profile: true
-redirect_from:
-  - /resume
+classes: wide
 ---
 
-{% include base_path %}
+# Stefan Thottunkal
+**M.S. in Community Health and Prevention Research, Stanford University**  
+**QUAD Fellow 2025-2026 | Medical Student at Macquarie University**
+
+---
 
 ## Education
 
@@ -30,6 +31,8 @@ redirect_from:
 * Fellowship designed to strengthen ties among emerging leaders across QUAD nations
 * Training on research-to-policy translation through engagement with diplomats and government officials
 
+---
+
 ## Publications
 
 ### Peer-Reviewed Articles
@@ -50,7 +53,7 @@ redirect_from:
 
 1. **Thottunkal, S.** Comparing LLM Output to Physician Notes for Pharmacogenomics (*MDPI: Journal of Personalized Medicine*).
 
-2. **Thottunkal, S.** AI Enabled Synthetic Bioweapons, a critical perspective on the current landscape of nucleic screening, and considerations for the EO’s AI Action Plan *Disaster Medicine and Public Health Preparedness, Cambridge Press (Submitted August 2025).
+2. **Thottunkal, S.** AI Enabled Synthetic Bioweapons, a critical perspective on the current landscape of nucleic screening, and considerations for the EO's AI Action Plan *Disaster Medicine and Public Health Preparedness, Cambridge Press (Submitted August 2025).
 
 3. **Thottunkal, S.**, Katie Chang, Judy Fan, Auddithio Nag, David Rhew, Bussina A, Behavioral Hazards, Externalities, and Cost–Benefit Dynamics of AI-Assisted Diabetic Retinopathy Screening: Microsoft's Healthcare from the Eye Initiative.
 
@@ -59,6 +62,8 @@ redirect_from:
 5. Yu H., **Thottunkal S.**, Yahya B. "Artificial intelligence in biomedical diagnostics:recent advances and transitions to liable regulation." *MIT Science Policy Review* (accepted, publication August 2025).
 
 6. Sayeed, M. A., Colquhoun, S., **Thottunkal, S.**, McLure, A., Schwessinger, B., Lal, A., & Rahaman, M. R. "Systematic review and meta-analysis of childhood diarrhea attributed to enteropathogenic organisms in low- and middle-income countries." (submitted 2025).
+
+---
 
 ## Conference Presentations & Talks
 
@@ -96,12 +101,12 @@ redirect_from:
 **GOARN Partners' Meeting on International Outbreak Response Capacity** | Asia-Pacific Region 2022
 * Presented project findings and facilitated engagement tool for data collection
 
-
-
-
-
 ---
 
-*[Download PDF version of CV](http://stefanthottunkal.github.io/files/stefan_thottunkal_cv.pdf)*
-
-*Last updated: August 2025*
+<div style="text-align: center; margin-top: 2em; padding-top: 1em; border-top: 1px solid #ddd;">
+<a href="{{ site.baseurl }}/files/stefan_thottunkal_cv.pdf" class="btn btn--primary" target="_blank">
+  <i class="fas fa-download"></i> Download PDF version of CV
+</a>
+<br>
+<small><em>Last updated: August 2025</em></small>
+</div>
