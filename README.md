@@ -34,7 +34,7 @@ redirect_from:
 
 ### Peer-Reviewed Articles
 
-1. **Thottunkal, S.**; Spahn, C.; Wang, B.; Rohatgi, N.; Hong, J.; Khandelwal, A.; Palaniappan, L. (2025). "Clinician Experiences at the Frontier of Pharmacogenomics and Future Directions." *Journal of Personalized Medicine*, 15(7), 294. https://doi.org/10.3390/jpm15070294
+1. **Thottunkal, S.**; Spahn, C.; Wang, B.; Rohatgi, N.; Hong, J.; Khandelwal, A.; Palaniappan, L. (2025). "Clinician Experiences at the Frontier of Pharmacogenomics and Future Directions." *MDPI: Journal of Personalized Medicine*, 15(7), 294. https://doi.org/10.3390/jpm15070294
 
 2. Parry A., Campbell S., **Thottunkal S.**, Salmon S. (2024). "Stronger together: A bi-regional operational capacity review of the Global Outbreak Alert and Response Network." *Western Pacific Surveillance and Response*, World Health Organization.
 
@@ -48,11 +48,11 @@ redirect_from:
 
 ### Manuscripts Under Review/In Preparation
 
-1. **Thottunkal, S.** Comparing LLM Output to Physician Notes for Pharmacogenomics (MDPI For Submission August 2025).
+1. **Thottunkal, S.** Comparing LLM Output to Physician Notes for Pharmacogenomics (*MDPI: Journal of Personalized Medicine*).
 
 2. **Thottunkal, S.** AI Enabled Synthetic Bioweapons, a critical perspective on the current landscape of nucleic screening, and considerations for the EO’s AI Action Plan *Disaster Medicine and Public Health Preparedness, Cambridge Press (Submitted August 2025).
 
-3. **Thottunkal, S.** Behavioral Hazards, Externalities, and Cost–Benefit Dynamics of AI-Assisted Diabetic Retinopathy Screening: Microsoft's Healthcare from the Eye Initiative.
+3. **Thottunkal, S.**, Katie Chang, Judy Fan, Auddithio Nag, David Rhew, Bussina A, Behavioral Hazards, Externalities, and Cost–Benefit Dynamics of AI-Assisted Diabetic Retinopathy Screening: Microsoft's Healthcare from the Eye Initiative.
 
 4. **Thottunkal, S.** (2021)"Regulatory Stringency and Impacts on Equity and Innovation in Medical Devices: Insights from the EU MDR 2017 and Considerations for the FDA" *Journal of Regulatory Science (revise and resubmit July 2025).
 
