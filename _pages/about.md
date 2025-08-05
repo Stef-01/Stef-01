@@ -69,11 +69,11 @@ Joshy, G., Khalatbari-Soltani, S., Soga, K., Butow, P., Laidsaar-Powell, R., Koc
 ###  Creative Works
 
 
-* Thottunkal S., "The Future In The Other: Levinasian Reflections On Identity, Responsibility, Humanity And Artificial Intelligence In Medicine," RMC Vera Cogitate, Summer (2024).
+* Thottunkal S., "The Future In The Other: Levinasian Reflections On Identity, Responsibility, Humanity And Artificial Intelligence In Medicine," RMC Vera Cogitate, Summer, (2024).
   
-* Thottunkal S. “Charles Darwin', 'The Singularity' and 'Mass Extinction” – Ceramics, 2021 Burgmann Journal Artwork Publication
+* Thottunkal S. “Charles Darwin', 'The Singularity' and 'Mass Extinction” – Ceramics, Burgmann Journal Artwork Publication, (2021)
 
-* Thottunkal S. "Journey of my life" 2018 QLD Creative Generations Exhibiiton
+* Thottunkal S. "Journey of my life" – Woodwork/carving, QLD Creative Generations Exhibiiton, (2018)
 
 
 ---
