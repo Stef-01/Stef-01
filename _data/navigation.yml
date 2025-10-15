@@ -13,7 +13,6 @@ main:
   # - title: "CV"
   #   url: /cv-json/
     
-  - title: "Guide"
-    url: /markdown/
+
   - title: "GenieRx"
     url: /genierx/
