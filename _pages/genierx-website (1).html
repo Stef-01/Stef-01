@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GenieRx - Precision Medicine Made Simple</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            color: #1a1a1a;
+            overflow-x: hidden;
+            background: #ffffff;
+        }
+
+        .nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            padding: 1.5rem 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            z-index: 1000;
+            box-shadow: 0 2px 20px rgba(0, 0, 0, 0.05);
+        }
+
+        .logo {
+            font-size: 2rem;
+            font-weight: 800;
+            color: #B91E3C;
+            letter-spacing: -1px;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2.5rem;
+            list-style: none;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: #333;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+        .nav-links a:hover {
+            color: #B91E3C;
+        }
+
+        .cta-button {
+            padding: 0.75rem 2rem;
+            background: #B91E3C;
+            color: white;
+            border: none;
+            border-radius: 50px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .cta-button:hover {
+            background: #9a1830;
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(185, 30, 60, 0.3);
+        }
+
+        .hero {
+            margin-top: 100px;
+            padding: 6rem 5% 4rem;
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -20%;
+            width: 800px;
+            height: 800px;
+            background: radial-gradient(circle, rgba(185, 30, 60, 0.1) 0%, transparent 70%);
+            border-radius: 50%;
+        }
+
+        .hero-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: center;
+            position: relative;
+            z-index: 1;
+        }
+
+        .hero-text h1 {
+            font-size: 4rem;
+            font-weight: 800;
+            line-height: 1.1;
+            margin-bottom: 1.5rem;
+            color: #1a1a1a;
+        }
+
+        .highlight {
+            color: #B91E3C;
+        }
+
+        .hero-text p {
+            font-size: 1.25rem;
+            color: #555;
+            line-height: 1.7;
+            margin-bottom: 2.5rem;
+        }
+
+        .hero-buttons {
+            display: flex;
+            gap: 1.5rem;
+        }
+
+        .btn-primary {
+            padding: 1rem 2.5rem;
+            background: #B91E3C;
+            color: white;
+            border: none;
+            border-radius: 50px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .btn-primary:hover {
+            background: #9a1830;
+            transform: translateY(-3px);
+            box-shadow: 0 15px 40px rgba(185, 30, 60, 0.4);
+        }
+
+        .btn-secondary {
+            padding: 1rem 2.5rem;
+            background: transparent;
+            color: #B91E3C;
+            border: 2px solid #B91E3C;
+            border-radius: 50px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .btn-secondary:hover {
+            background: #B91E3C;
+            color: white;
+            transform: translateY(-3px);
+        }
+
+        .hero-visual {
+            background: white;
+            padding: 3rem;
+            border-radius: 30px;
+            box-shadow: 0 30px 80px rgba(0, 0, 0, 0.1);
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2rem;
+        }
+
+        .stat-card {
+            padding: 2rem;
+            background: linear-gradient(135deg, #f8f9fa 0%, #fff 100%);
+            border-radius: 20px;
+            border-left: 4px solid #B91E3C;
+            transition: all 0.3s;
+        }
+
+        .stat-card:hover {
+            transform: translateX(10px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .stat-number {
+            font-size: 3rem;
+            font-weight: 800;
+            color: #B91E3C;
+            margin-bottom: 0.5rem;
+        }
+
+        .stat-label {
+            font-size: 1rem;
+            color: #666;
+            font-weight: 500;
+        }
+
+        .benefits {
+            padding: 6rem 5%;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 4rem;
+        }
+
+        .section-header h2 {
+            font-size: 3rem;
+            font-weight: 800;
+            margin-bottom: 1rem;
+        }
+
+        .section-header p {
+            font-size: 1.25rem;
+            color: #666;
+        }
+
+        .benefits-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 2rem;
+        }
+
+        .benefit-card {
+            padding: 2.5rem;
+            background: white;
+            border-radius: 25px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .benefit-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 4px;
+            background: linear-gradient(90deg, #B91E3C, #e94560);
+            transform: scaleX(0);
+            transition: transform 0.4s;
+        }
+
+        .benefit-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 60px rgba(185, 30, 60, 0.2);
+        }
+
+        .benefit-card:hover::before {
+            transform: scaleX(1);
+        }
+
+        .benefit-icon {
+            font-size: 3rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .benefit-card h3 {
+            font-size: 1.1rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            color: #1a1a1a;
+        }
+
+        .benefit-card p {
+            color: #666;
+            line-height: 1.6;
+        }
+
+        .benefit-stat {
+            font-size: 1.5rem;
+            font-weight: 800;
+            color: #B91E3C;
+            margin-top: 1rem;
+        }
+
+        .problem {
+            padding: 6rem 5%;
+            background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+            color: white;
+        }
+
+        .problem-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: center;
+        }
+
+        .problem h2 {
+            font-size: 3rem;
+            font-weight: 800;
+            margin-bottom: 2rem;
+        }
+
+        .problem-stat {
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+            margin: 2rem 0;
+            padding: 2rem;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+        }
+
+        .problem-stat-number {
+            font-size: 3.5rem;
+            font-weight: 800;
+            color: #e94560;
+        }
+
+        .problem-stat-text {
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+
+        .solution {
+            padding: 6rem 5%;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .solution-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3rem;
+            margin-top: 3rem;
+        }
+
+        .solution-feature {
+            padding: 3rem;
+            background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+            border-radius: 25px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+            transition: all 0.3s;
+        }
+
+        .solution-feature:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.12);
+        }
+
+        .solution-feature h3 {
+            font-size: 1.75rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            color: #B91E3C;
+        }
+
+        .solution-feature ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .solution-feature li {
+            padding: 1rem 0;
+            border-bottom: 1px solid #e9ecef;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        .solution-feature li:last-child {
+            border-bottom: none;
+        }
+
+        .solution-feature li::before {
+            content: '✓';
+            color: #B91E3C;
+            font-weight: 800;
+            margin-right: 1rem;
+            font-size: 1.2rem;
+        }
+
+        .cta-section {
+            padding: 6rem 5%;
+            background: linear-gradient(135deg, #B91E3C 0%, #e94560 100%);
+            color: white;
+            text-align: center;
+        }
+
+        .cta-section h2 {
+            font-size: 3.5rem;
+            font-weight: 800;
+            margin-bottom: 1.5rem;
+        }
+
+        .cta-section p {
+            font-size: 1.5rem;
+            margin-bottom: 3rem;
+            opacity: 0.95;
+        }
+
+        .cta-section button {
+            padding: 1.25rem 3rem;
+            background: white;
+            color: #B91E3C;
+            border: none;
+            border-radius: 50px;
+            font-size: 1.25rem;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .cta-section button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+        }
+
+        @media (max-width: 968px) {
+            .hero-content, .problem-content, .solution-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .benefits-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .hero-text h1 {
+                font-size: 2.5rem;
+            }
+
+            .nav-links {
+                display: none;
+            }
+        }
+
+        @media (max-width: 568px) {
+            .benefits-grid, .stats-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <div class="logo">GENIE RX</div>
+        <ul class="nav-links">
+            <li><a href="#benefits">Benefits</a></li>
+            <li><a href="#solution">How It Works</a></li>
+            <li><a href="#integration">Integration</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="cta-button">Request Demo</button>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Precision Medicine Made <span class="highlight">Simple</span></h1>
+                <p>AI-powered pharmacogenomics that transforms genetic data into clear, actionable prescribing decisions. Integrated seamlessly into your EHR workflow.</p>
+                <div class="hero-buttons">
+                    <button class="btn-primary">Get Started</button>
+                    <button class="btn-secondary">Watch Demo</button>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-number">80%</div>
+                        <div class="stat-label">Time reduction in gene interpretation</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">20%</div>
+                        <div class="stat-label">Increase in patient satisfaction</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">100K+</div>
+                        <div class="stat-label">ADR deaths prevented annually</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">Epic</div>
+                        <div class="stat-label">Seamless EHR integration</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="benefits" id="benefits">
+        <div class="section-header">
+            <h2>Your Full-Stack Agent for Precision Medicine</h2>
+            <p>Streamlining care from patient identification to billing automation</p>
+        </div>
+        <div class="benefits-grid">
+            <div class="benefit-card">
+                <div class="benefit-icon">😊</div>
+                <h3>PATIENTS</h3>
+                <p>Epidemiology-powered algorithm identifies which patients will benefit from pharmacogenomic testing</p>
+            </div>
+            <div class="benefit-card">
+                <div class="benefit-icon">⚕️</div>
+                <h3>CLINICIANS</h3>
+                <p>Cuts gene interpretation and report drafting time by 80%</p>
+                <div class="benefit-stat">80%</div>
+            </div>
+            <div class="benefit-card">
+                <div class="benefit-icon">📋</div>
+                <h3>BILLING</h3>
+                <p>Billing documentation and claims processing fully automated</p>
+            </div>
+            <div class="benefit-card">
+                <div class="benefit-icon">🏥</div>
+                <h3>HOSPITALS</h3>
+                <p>PGx patients report 20% increased satisfaction scores on average</p>
+                <div class="benefit-stat">+20%</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="problem">
+        <div class="problem-content">
+            <div>
+                <h2>The Problem We're Solving</h2>
+                <div class="problem-stat">
+                    <div class="problem-stat-number">100K+</div>
+                    <div class="problem-stat-text">Deaths annually from adverse drug reactions in the United States alone</div>
+                </div>
+                <div class="problem-stat">
+                    <div class="problem-stat-number">$Billions</div>
+                    <div class="problem-stat-text">Cost to the healthcare system, disproportionately impacting marginalized communities</div>
+                </div>
+            </div>
+            <div>
+                <p style="font-size: 1.25rem; line-height: 1.8;">Most doctors still rely on trial-and-error prescribing despite available PGx guidelines. Why? Because clinical guidelines are complex, time-consuming, and difficult to apply in real-time clinical settings.</p>
+                <p style="font-size: 1.25rem; line-height: 1.8; margin-top: 2rem;">GenieRx changes this by making precision medicine accessible, fast, and actionable.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="solution" id="solution">
+        <div class="section-header">
+            <h2>How GenieRx Works</h2>
+            <p>Evidence-based AI that integrates seamlessly into clinical workflow</p>
+        </div>
+        <div class="solution-grid">
+            <div class="solution-feature">
+                <h3>🧬 Intelligent Analysis</h3>
+                <ul>
+                    <li>Combines LLMs with curated evidence-based knowledge engine</li>
+                    <li>Translates genetic test results into clear recommendations</li>
+                    <li>Incorporates CPIC and other authoritative guidelines</li>
+                    <li>Accounts for drug-drug interactions and comorbidities</li>
+                </ul>
+            </div>
+            <div class="solution-feature">
+                <h3>💡 Actionable Insights</h3>
+                <ul>
+                    <li>Consult-style notes: what it means, how it affects the drug</li>
+                    <li>Specific dose adjustments or alternative therapies</li>
+                    <li>Phenoconversion factors included</li>
+                    <li>Full clinical context consideration</li>
+                </ul>
+            </div>
+            <div class="solution-feature">
+                <h3>🔗 Seamless Integration</h3>
+                <ul>
+                    <li>Direct integration with Epic and Cerner EHR systems</li>
+                    <li>No workflow disruption</li>
+                    <li>Real-time decision support at point of care</li>
+                    <li>Automated documentation for billing</li>
+                </ul>
+            </div>
+            <div class="solution-feature">
+                <h3>📊 Proven Results</h3>
+                <ul>
+                    <li>80% reduction in interpretation time</li>
+                    <li>20% increase in patient satisfaction</li>
+                    <li>Improved medication safety outcomes</li>
+                    <li>Reduced adverse drug reactions</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section" id="contact">
+        <h2>Ready to Transform Your Practice?</h2>
+        <p>Join leading healthcare systems using GenieRx to deliver safer, more effective care</p>
+        <button>Schedule a Demo Today</button>
+    </section>
+</body>
+</html>
