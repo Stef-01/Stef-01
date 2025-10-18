@@ -1,3 +1,7 @@
+---
+layout: none
+permalink: /genierx/
+---
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -421,71 +425,8 @@
             box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
         }
 
-        /* Video modal styling */
-        .modal {
-            position: fixed;
-            inset: 0;
-            background: rgba(0, 0, 0, 0.6);
-            display: none;
-            align-items: center;
-            justify-content: center;
-            z-index: 2000;
-        }
-
-        .modal.open {
-            display: flex;
-        }
-
-        .modal-content {
-            width: min(960px, 92vw);
-            background: #000;
-            border-radius: 16px;
-            overflow: hidden;
-            box-shadow: 0 30px 80px rgba(0, 0, 0, 0.5);
-            position: relative;
-        }
-
-        .video-wrapper {
-            position: relative;
-            padding-top: 56.25%;
-        }
-
-        .video-wrapper video,
-        .video-wrapper iframe {
-            position: absolute;
-            inset: 0;
-            width: 100%;
-            height: 100%;
-        }
-
-        .modal-close {
-            position: absolute;
-            top: 10px;
-            right: 14px;
-            background: #fff;
-            color: #1a1a1a;
-            border: 0;
-            border-radius: 999px;
-            width: 36px;
-            height: 36px;
-            font-size: 20px;
-            cursor: pointer;
-            z-index: 10;
-        }
-
-        .debug-info {
-            color: white;
-            padding: 2rem;
-            font-family: monospace;
-            text-align: left;
-            font-size: 0.9rem;
-            line-height: 1.6;
-        }
-
         @media (max-width: 968px) {
-            .hero-content,
-            .problem-content,
-            .solution-grid {
+            .hero-content, .problem-content, .solution-grid {
                 grid-template-columns: 1fr;
             }
 
@@ -500,17 +441,46 @@
             .nav-links {
                 display: none;
             }
+/* Video modal styling */
+.modal {
+  position: fixed; inset: 0;
+  background: rgba(0,0,0,0.6);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 2000;
+}
+.modal.open { display: flex; }
+
+.modal-content {
+  width: min(960px, 92vw);
+  background: #000;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 30px 80px rgba(0,0,0,0.5);
+  position: relative;
+}
+.video-wrapper { position: relative; padding-top: 56.25%; }
+.video-wrapper video, .video-wrapper iframe {
+  position: absolute; inset: 0;
+  width: 100%; height: 100%;
+}
+.modal-close {
+  position: absolute; top:10px; right:14px;
+  background:#fff; color:#1a1a1a;
+  border:0; border-radius:999px;
+  width:36px; height:36px;
+  font-size:20px; cursor:pointer;
+}            
         }
 
         @media (max-width: 568px) {
-            .benefits-grid,
-            .stats-grid {
+            .benefits-grid, .stats-grid {
                 grid-template-columns: 1fr;
             }
         }
     </style>
 </head>
-
 <body>
     <nav class="nav">
         <div class="logo">GENIE RX</div>
@@ -659,62 +629,43 @@
         <p>Join leading healthcare systems using GenieRx to deliver safer, more effective care</p>
         <button>Schedule a Demo Today</button>
     </section>
-
-    <!-- Demo Modal -->
-    <div class="modal" id="demoModal" aria-hidden="true" role="dialog" aria-label="GenieRx Demo Video">
-        <div class="modal-content" role="document" style="position:relative">
-            <button class="modal-close" id="closeDemo" aria-label="Close">×</button>
-            <div class="video-wrapper">
-                <video id="genierxVideo" controls preload="metadata">
-                    <source src="/images/My Movie 3.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
-            </div>
-        </div>
+    <!-- GenieRx Demo Video Modal -->
+<div class="modal" id="demoModal" aria-hidden="true" role="dialog" aria-label="GenieRx Demo Video">
+  <div class="modal-content" role="document" style="position:relative">
+    <button class="modal-close" id="closeDemo" aria-label="Close">×</button>
+    <div class="video-wrapper">
+      <video id="genierxVideo"
+             controls
+             preload="metadata"
+             poster="images/My Video-Thumbnail.jpg">
+        <source src="/images/My Movie 3.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
     </div>
-
+  </div>
+</div>
     <script>
-        const openBtn = document.getElementById('openDemo');
-        const modal = document.getElementById('demoModal');
-        const closeBtn = document.getElementById('closeDemo');
-        const vid = document.getElementById('genierxVideo');
+  const open = document.getElementById('openDemo');
+  const modal = document.getElementById('demoModal');
+  const close = document.getElementById('closeDemo');
+  const vid = document.getElementById('genierxVideo');
 
-        function openModal() {
-            modal.classList.add('open');
-            modal.setAttribute('aria-hidden', 'false');
-            
-            // Check if video source is accessible
-            vid.addEventListener('error', function() {
-                console.error('Video failed to load. Trying to fetch...');
-                fetch('/images/My Movie 3.mp4', {method: 'HEAD'})
-                    .then(r => {
-                        if (!r.ok) throw new Error(`HTTP ${r.status}`);
-                        console.log('Video file found! Status:', r.status);
-                    })
-                    .catch(e => {
-                        console.error('Video file not found at /images/My Movie 3.mp4', e);
-                        alert('Video file not found at /images/My Movie 3.mp4\n\nCheck your browser console for details.');
-                    });
-            }, {once: true});
-            
-            vid.load();
-        }
+  function openModal() {
+    modal.classList.add('open');
+    modal.setAttribute('aria-hidden','false');
+    vid.play();
+  }
 
-        function closeModal() {
-            modal.classList.remove('open');
-            modal.setAttribute('aria-hidden', 'true');
-            vid.pause();
-            vid.currentTime = 0;
-        }
+  function closeModal() {
+    modal.classList.remove('open');
+    modal.setAttribute('aria-hidden','true');
+    vid.pause(); vid.currentTime = 0;
+  }
 
-        openBtn.addEventListener('click', openModal);
-        closeBtn.addEventListener('click', closeModal);
-        modal.addEventListener('click', (e) => {
-            if (e.target === modal) closeModal();
-        });
-        document.addEventListener('keydown', (e) => {
-            if (e.key === 'Escape' && modal.classList.contains('open')) closeModal();
-        });
-    </script>
+  open.addEventListener('click', openModal);
+  close.addEventListener('click', closeModal);
+  modal.addEventListener('click', (e)=>{ if(e.target === modal) closeModal(); });
+  document.addEventListener('keydown', (e)=>{ if(e.key==='Escape' && modal.classList.contains('open')) closeModal(); });
+</script>
 </body>
 </html>
