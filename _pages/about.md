@@ -25,9 +25,6 @@ redirect_from:
 
 **Bachelor of Health Science with First Class Honors** | Australian National University | 2019-2023
 * GPA: 6.92/7.0
-  
-**Certificate 3 in Process Manufacturing** | Kirana College | 2019
-
 
 ---
 
