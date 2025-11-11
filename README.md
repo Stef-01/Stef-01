@@ -31,6 +31,9 @@ classes: wide
 * Fellowship designed to strengthen ties among emerging leaders across QUAD nations
 * Training on research-to-policy translation through engagement with diplomats and government officials
 
+**Incubators**
+* Harvard Health Systems Innovation Lab Venture Building Program
+* Johns Hopkins Pava Centre Spark Program
 ---
 
 ## Publications
@@ -79,6 +82,9 @@ classes: wide
 * "Pharmacogenomics Applications for Medication Management in Precision Oncology" (Junior Investigator Panelist)
 
 ### Conference Presentations
+
+**MDPI IOCPM 2025** | 2025
+* **Stefan Thottunkal**, Guillaume Denis Nicolas larghero, Claire Spahn, Benjamin Wang, Nidhi Rohatgi, Ivan Lopez, Jison Hong, Abha Khandelwal, Anand Veeravagu, Latha Palaniappan. Comparing LLM Output to Physician Notes for Pharmacogenomics  | 2025
 
 **QUAD Fellowship Summit** | 2025
 * **Thottunkal S.**, Vigil B., Matsumoto S. "Repurposing ML topic modelling techniques from counterterrorism approaches, for Infectious Disease Surveillance"
